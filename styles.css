@@ -1,0 +1,87 @@
+body {
+    display: flex;
+    justify-content: center;
+    font-family: sans-serif;
+}
+#instructionslogin {
+    font-size: 15px;
+}
+.welcome {
+    margin-top: 40px;
+}
+.mainContainer {
+    width: 30vw;
+    margin-top: 110px;
+    border: solid 5px purple;
+    border-radius: 60px;
+    background-color: rgb(150, 117, 181);
+}
+.secondaryContainer {
+    width: 40vw;
+    margin-top: 110px;
+    border: solid 5px purple;
+    border-radius: 60px;
+    background-color: rgb(150, 117, 181);
+}
+
+.title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.subtitle {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.center {
+    display: flex;
+    justify-content: center;
+    margin: 10px;
+}
+#msg {
+    color: red;
+}
+span {
+    color: rgb(81, 8, 69)
+}
+#checksaldo {
+    color: black;
+}
+#titleBank {
+    font-size: 37px;
+    
+}
+#infoAccount {
+    display: grid;
+}
+button {
+    background-color: rgb(235, 195, 235);
+    border-radius: 10px;
+    margin: 10px;
+    height: 25px;
+    width: 150px;
+}
+#username {
+    padding: 0px 10px;
+    color: rgb(74, 4, 71);
+}
+
+#user {
+    border-radius: 8px;
+    border-color: gray;
+}
+
+#password {
+    border-radius: 8px;
+    border-color: gray;
+}
+.returnButton {
+    margin: 20px;
+}
+
+.userCuantity {
+    display: flex;
+    justify-content: center;
+    border-radius: 30px;
+}

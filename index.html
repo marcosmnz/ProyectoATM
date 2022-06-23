@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BANCO DEVF</title>
+    <link rel="stylesheet" href="./styles.css">
+    <script src="https://kit.fontawesome.com/0016490124.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div class="mainContainer">
+        <div class="title">
+            <h1 id="titleBank"><span><img id="img-devf" src="https://devf-website.s3.amazonaws.com/static/assets/img/devf-white.png" alt="DEVF logo" width="120px"></span> BANK</h1>
+        </div>
+        <div class="subtitle">
+            <h2>ATM</h2>
+        </div>
+        <form id="form">
+            <label class="center" id="instructionslogin" for="">Ingrese su cuenta y contraseña</label>
+            <div class="center">
+                <label for="user"></label>
+                <input type="text" name="user" id="user" placeholder="Usuario">
+            </div>
+            <div class="center">
+                <label for="password"></label>
+                <input type="password" name="password" id="password" placeholder="Contraseña">
+            </div>
+            <div class="center">
+                <button type="submit"><span><i class="fas fa-sign-in-alt"></i></span> Iniciar sesión</button>
+            </div>
+            <div class="center" id="msg">
+                <!-- aqui va el mensaje si no se reconoce el usuario -->
+            </div>
+        </form>
+    </div>
+    <div class="secondContainer center" id="infoAccount">
+        <!-- Aqui va el balance y todo lo de despues de iniciar sesión. -->
+    </div>
+    <script src="./main.js"></script>   
+</body>
+</html>
